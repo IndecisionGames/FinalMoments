@@ -17,9 +17,9 @@ func shoot():
 		new_bullet.global_transform = $Muzzle.global_transform
 		new_bullet.speed = muzzle_speed
 		var scene_root = get_tree().get_root().get_children()[0]
-		scene_root.add_child(new_bullet) 
-		can_shoot = false  
-		rof_timer.start() 
+		scene_root.add_child(new_bullet)
+		can_shoot = false
+		rof_timer.start()
 
 func _on_Timer_timeout():
 	can_shoot = true
