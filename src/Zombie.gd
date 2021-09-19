@@ -22,3 +22,6 @@ func update_path(target_position):
 
 func _on_Timer_timeout():
 	update_path(player.global_transform.origin)
+
+func _on_Stats_destroy_self():
+	queue_free()
