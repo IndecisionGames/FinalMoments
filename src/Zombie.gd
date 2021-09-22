@@ -1,5 +1,7 @@
 extends KinematicBody
 
+class_name Zombie
+
 onready var nav: Navigation = $"../Navigation"
 onready var player: KinematicBody = $"../Player"
 

@@ -2,7 +2,7 @@ extends Node
 
 class_name Stats
 
-export var max_hp = 10
+export var max_hp = 4
 var current_hp = max_hp
 
 signal destroy_self

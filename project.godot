@@ -13,9 +13,21 @@ _global_script_classes=[ {
 "class": "Stats",
 "language": "GDScript",
 "path": "res://src/Stats.gd"
+}, {
+"base": "Node",
+"class": "Wave",
+"language": "GDScript",
+"path": "res://src/Wave.gd"
+}, {
+"base": "KinematicBody",
+"class": "Zombie",
+"language": "GDScript",
+"path": "res://src/Zombie.gd"
 } ]
 _global_script_class_icons={
-"Stats": ""
+"Stats": "",
+"Wave": "",
+"Zombie": ""
 }
 
 [application]
