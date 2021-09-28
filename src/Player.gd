@@ -29,3 +29,8 @@ func _physics_process(delta):
 	# Shoot
 	if Input.is_action_pressed("primary_action"):
 		gun_controller.shoot()
+
+func _on_Stats_destroy_self():
+	# Die
+	print("Game Over")
+	queue_free()
