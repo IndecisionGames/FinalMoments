@@ -1,9 +1,9 @@
 [gd_scene load_steps=10 format=2]
 
-[ext_resource path="res://src/Gun.tscn" type="PackedScene" id=1]
-[ext_resource path="res://src/Player.gd" type="Script" id=2]
-[ext_resource path="res://src/GunController.gd" type="Script" id=3]
-[ext_resource path="res://src/Stats.tscn" type="PackedScene" id=4]
+[ext_resource path="res://src/Weapon/Gun.tscn" type="PackedScene" id=1]
+[ext_resource path="res://src/Player/Player.gd" type="Script" id=2]
+[ext_resource path="res://src/Weapon/GunController.gd" type="Script" id=3]
+[ext_resource path="res://src/Util/Stats.tscn" type="PackedScene" id=4]
 
 [sub_resource type="CapsuleMesh" id=1]
 
@@ -37,7 +37,7 @@ mesh = SubResource( 3 )
 material/0 = SubResource( 4 )
 
 [node name="Hand" type="Position3D" parent="Body"]
-transform = Transform( 1, -8.47316e-23, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, -0.886379, 0.795033, 0.0309503 )
+transform = Transform( -1, -8.74228e-08, 7.10543e-15, 0, -4.37114e-08, -1, 8.74228e-08, -1, 4.37114e-08, -0.886379, 0.795033, 0.0309503 )
 
 [node name="GunController" type="Node" parent="."]
 script = ExtResource( 3 )

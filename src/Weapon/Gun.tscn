@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=2]
 
-[ext_resource path="res://src/Gun.gd" type="Script" id=1]
-[ext_resource path="res://src/Bullet.tscn" type="PackedScene" id=2]
+[ext_resource path="res://src/Weapon/Gun.gd" type="Script" id=1]
+[ext_resource path="res://src/Weapon/Bullet.tscn" type="PackedScene" id=2]
 
 [sub_resource type="CubeMesh" id=1]
 
@@ -9,7 +9,7 @@
 albedo_color = Color( 0.211765, 0.176471, 0.176471, 1 )
 
 [node name="Gun" type="Spatial"]
-transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 0, 0.0704452, 0.776028 )
+transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -6.76829e-08, 0.0704452, -0.772376 )
 script = ExtResource( 1 )
 Bullet = ExtResource( 2 )
 

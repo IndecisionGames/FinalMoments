@@ -29,7 +29,8 @@ var current_state = state.SEEKING
 
 func _ready():
 	$MeshInstance.set_surface_material(0, default_material)
-	player_stats = player.get_node("Stats")
+	if is_instance_valid(player):
+		player_stats = player.get_node("Stats")
 
 func _physics_process(delta):
 	if is_instance_valid(player):

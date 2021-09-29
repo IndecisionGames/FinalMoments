@@ -1,7 +1,7 @@
 [gd_scene load_steps=7 format=2]
 
-[ext_resource path="res://src/Zombie.gd" type="Script" id=1]
-[ext_resource path="res://src/Stats.tscn" type="PackedScene" id=2]
+[ext_resource path="res://src/Enemy/Zombie.gd" type="Script" id=1]
+[ext_resource path="res://src/Util/Stats.tscn" type="PackedScene" id=2]
 [ext_resource path="res://resources/ZombieDefaultMaterial.tres" type="Material" id=3]
 
 [sub_resource type="CapsuleMesh" id=1]
